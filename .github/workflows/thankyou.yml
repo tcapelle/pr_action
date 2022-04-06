@@ -6,9 +6,7 @@ defaults:
   run: { shell: bash }
 
 jobs:
-
   build:
-None
     strategy:
       fail-fast: false
       matrix: { os: [ubuntu] }
