@@ -11,6 +11,8 @@ jobs:
       fail-fast: false
       matrix: { os: [ubuntu] }
     runs-on: ${{ matrix.os }}-latest
+    permissions:
+      issues: write
     steps:
     - uses: actions/checkout@v1
     - uses: actions/setup-python@v2
