@@ -1,5 +1,5 @@
 from fastcore.all import *
-from ghapi import *
+from ghapi.all import *
 
 def reply_thanks():
     api = GhApi(owner='fastai', repo='ghapi', token=github_token())
